@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtrado Dinámico de Tabla</title>
+    <link rel="stylesheet" href="act3tablatiemporeal.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Filtrar Tabla en Tiempo Real</h1>
+        <input type="text" id="searchInput" placeholder="Buscar en la tabla..." onkeyup="filtrarTabla()">
+        <table id="dataTable">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Edad</th>
+                    <th>País</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Juan Pérez</td>
+                    <td>25</td>
+                    <td>México</td>
+                </tr>
+                <tr>
+                    <td>Ana Gómez</td>
+                    <td>30</td>
+                    <td>España</td>
+                </tr>
+                <tr>
+                    <td>Pedro López</td>
+                    <td>22</td>
+                    <td>Argentina</td>
+                </tr>
+                <tr>
+                    <td>Sofía Ramírez</td>
+                    <td>29</td>
+                    <td>Chile</td>
+                </tr>
+                <tr>
+                    <td>Martín Castro</td>
+                    <td>35</td>
+                    <td>Perú</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="act3tablatiemporeal.js"></script>
+</body>
+</html>
